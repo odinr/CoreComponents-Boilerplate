@@ -1,1 +1,3 @@
-dev
+/dev
+/src
+/node_modules
