@@ -1,0 +1,18 @@
+{
+  "name": "@coretrek/CoreComponents-Boilerplate",
+  "version": "0.1.0",
+  "description": "Boilerplate for making webcomponents",
+  "main": ".dist/bundle/index.js",
+  "module": "./dist/index.mjs",
+  "scripts": {
+    "demo": "http-server -o"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@polymer/lit-element": "^0.5.1"
+  },
+  "devDependencies": {
+    "@webcomponents/webcomponentsjs": "^2.0.0"
+  }
+}
