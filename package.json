@@ -4,8 +4,13 @@
   "description": "Boilerplate for making webcomponents",
   "main": ".dist/bundle/index.js",
   "module": "./dist/index.mjs",
+  "jsnext:main": ".dist/bundle/index.mjs",
+  "unpkg": ".dist/bundle/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "demo": "http-server -o"
+    "watch": "corecomponents watch"
   },
   "author": "",
   "license": "ISC",
