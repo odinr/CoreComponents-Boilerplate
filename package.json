@@ -10,7 +10,10 @@
     "dist"
   ],
   "scripts": {
-    "watch": "corecomponents watch"
+    "build": "corecomponents build",
+    "version": "npm run build",
+    "postversion": "git push && git push --tags && npm publish",
+    "watch": "corecomponents serve -wr"
   },
   "author": "",
   "license": "ISC",
