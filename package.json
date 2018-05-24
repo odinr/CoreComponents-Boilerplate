@@ -1,6 +1,6 @@
 {
   "name": "@coretrek/CoreComponents-Boilerplate",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Boilerplate for making webcomponents",
   "main": ".dist/bundle/index.js",
   "module": "./dist/index.mjs",
